@@ -3,7 +3,9 @@ open class Bug(val rank: Int, val name: String) {
         return rank
     }
 
-    open fun getId(): String = "level is ${rank}, name is ${name}"
+    open fun getId(): String {
+        return "level is $rank, name is $name"
+    }
 }
 
 class BugCivilian(rank: Int, name: String) : Bug(rank, name) {
