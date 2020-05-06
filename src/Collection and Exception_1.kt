@@ -1,7 +1,6 @@
 fun getCubeList(n: Int): List<Int> {
     return List<Int>(n, { n -> n * n * n })
-
-}
+ }
 
 fun main(args: Array<String>) {
     println(getCubeList(7))
