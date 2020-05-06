@@ -7,10 +7,3 @@ fun calculateEvenDigits(input: String): Int {
     }
     return c
 }
-
-fun main(args: Array<String>) {
-    val str: String? = readLine()
-    if (str != null) {
-        calculateEvenDigits(str)
-    }
-}
