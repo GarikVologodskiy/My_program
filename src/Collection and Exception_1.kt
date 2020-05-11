@@ -3,7 +3,7 @@ fun getCubeList(n: Int): List<Int> {
  }
 
 fun main(args: Array<String>) {
-    println(getCubeList(7))
+    (getCubeList(7))
 }
 /*
 Умение быстро возводить в куб целые числа является очень важным качеством для молодых пришельцев.

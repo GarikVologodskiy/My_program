@@ -1,4 +1,4 @@
-fun getYearEra(numberOfYear: Int): String {
+ fun getYearEra(numberOfYear: Int): String {
     return when {
         numberOfYear < 1970 -> "before"
         numberOfYear == 1970 -> "equals"
